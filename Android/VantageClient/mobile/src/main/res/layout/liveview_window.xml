@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vantageclient.Layout.LiveViewLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/channel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/novideo_plain"
+    android:layout_weight=".5" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/channel_add"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/ic_add_white_24dp"
+        android:layout_centerInParent="true"
+        android:alpha=".75" />
+
+    <Button
+        android:id="@+id/channel_clear"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_clear_white_24dp"
+        android:alpha=".5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:visibility="invisible" />
+
+    <ProgressBar
+        android:id="@+id/pgbLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+
+    <SurfaceView
+        android:id="@+id/SurfaceView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible" />
+
+    </RelativeLayout>
+</com.vantageclient.Layout.LiveViewLayout>

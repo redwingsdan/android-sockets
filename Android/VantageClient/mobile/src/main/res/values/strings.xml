@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Aventura Vantage</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="nav_item_icon">Item Icon</string>
+
+    <string name="nav_item_liveview">Live View</string>
+    <string name="nav_item_devices">Devices</string>
+    <string name="nav_item_storagecalc">Storage Calculator</string>
+    <string name="nav_item_fibercalc">Fiber Calculator</string>
+    <string name="nav_item_lenscalc">Lens Calculator</string>
+    <string name="nav_item_voltagecalc">Voltage Drop Calculator</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="drawer_labels">
+        <item>@string/nav_item_liveview</item>
+        <item>@string/nav_item_devices</item>
+        <item>@string/nav_item_storagecalc</item>
+        <item>@string/nav_item_fibercalc</item>
+        <item>@string/nav_item_lenscalc</item>
+        <item>@string/nav_item_voltagecalc</item>
+    </string-array>
+
+    <array name="drawer_icons">
+        <item>@drawable/ic_view_module_white_24dp</item>
+        <item>@drawable/ic_videocam_white_24dp</item>
+        <item>@drawable/storage_calc</item>
+        <item>@drawable/fiber_calc</item>
+        <item>@drawable/lens_calc</item>
+        <item>@drawable/voltage_calc</item>
+    </array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_devices">Devices</string>
+    <string name="title_liveview">Live View</string>
+
+    <!-- Device List Dialog -->
+    <string name="dialog_title">Device Options</string>
+    <string name="dialog_edit">Edit Device</string>
+    <string name="dialog_delete">Delete Device</string>
+    <string-array name="dialog_labels">
+        <item>@string/dialog_edit</item>
+        <item>@string/dialog_delete</item>
+    </string-array>
+
+    <!-- Device Add -->
+    <string name="input_devicename">Device Name</string>
+    <string name="input_ip">IP Address</string>
+    <string name="input_port">Port</string>
+    <string name="input_username">Username</string>
+    <string name="input_password">Password</string>
+    <string name="err_msg_devicename">Enter a device name</string>
+    <string name="err_msg_ip">Enter a valid IP address</string>
+    <string name="err_msg_port">Enter a valid port</string>
+    <string name="err_msg_username">Enter the device username</string>
+    <string name="btn_add">Add Device</string>
+    <string name="btn_edit">Save</string>
+
+    <!-- dvr client -->
+    <string name="optionsMenuTitle">Options</string>
+    <string name="dataWarningTitle">Data Warning</string>
+    <string name="dataWarningText">This application can use a lot of data. The user is responsible for any data usage fees associated with using their carriers network. It is highly recommended that you use a Wi-Fi network when available.</string>
+    <string name="menuConnectText">Connect</string>
+    <string name="noDevices">Please add a server from the menu to begin...</string>
+
+    <string name="dvrNameText">Name</string>
+    <string name="ipAddrText">Server Address</string>
+    <string name="userNameText">User Name</string>
+    <string name="passText">Password</string>
+    <string name="btnConfirmText">Confirm</string>
+    <string name="portText">Port</string>
+    <string name="chkSavePassText">Save Password</string>
+    <string name="editDvrText">Edit Server</string>
+
+    <string name="btnLoginText">Login</string>
+
+    <string name="menuEditText">Edit</string>
+    <string name="menuDelete">Delete</string>
+    <string name="addDvrText">Add Server</string>
+
+    <string name="ErrorInvalidDvrName">Name cannot be blank!</string>
+    <string name="ErrorInvalidIp">Invalid server address</string>
+    <string name="ErrorInvalidUserName">You must supply a user name!</string>
+    <string name="ErrorUpdatingDatabase">Error updating info</string>
+    <string name="ErrorAddingToDB">You cannot add the same server twice</string>
+    <string name="MessageDVRAdded">Server successfully added</string>
+</resources>

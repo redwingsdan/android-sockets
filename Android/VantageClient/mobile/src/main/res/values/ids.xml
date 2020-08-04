@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="item_click_support" type="id" />
+    <item name="toolbar_liveview" type="id" />
+    <item name="container_liveview" type="id" />
+    <item type="id" name="liveview_channel1">false</item>
+    <item type="id" name="liveview_channel2">false</item>
+    <item type="id" name="liveview_channel3">false</item>
+    <item type="id" name="liveview_channel4">false</item>
+    <item type="id" name="liveview_channel5">false</item>
+    <item type="id" name="liveview_channel6">false</item>
+    <item type="id" name="liveview_channel7">false</item>
+    <item type="id" name="liveview_channel8">false</item>
+    <item type="id" name="liveview_channel9">false</item>
+    <item type="id" name="liveview_channel10">false</item>
+    <item type="id" name="liveview_channel11">false</item>
+    <item type="id" name="liveview_channel12">false</item>
+    <item type="id" name="liveview_channel13">false</item>
+    <item type="id" name="liveview_channel14">false</item>
+    <item type="id" name="liveview_channel15">false</item>
+    <item type="id" name="liveview_channel16">false</item>
+    <item type="id" name="liveview_container">false</item>
+</resources>
